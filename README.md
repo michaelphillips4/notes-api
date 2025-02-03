@@ -1,9 +1,12 @@
 # Elysia with Bun runtime
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
+
 ```bash
-bun create elysia ./elysia-example
+curl -fsSL https://bun.sh/install | bash
+bun create elysia notes-api //already done
+bun install
+bun run
 ```
 
 ## Development
@@ -13,3 +16,6 @@ bun run dev
 ```
 
 Open http://localhost:3000/ with your browser to see the result.
+
+
+https://elysiajs.com/
